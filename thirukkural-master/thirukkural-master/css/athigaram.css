@@ -1,0 +1,151 @@
+ @import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+ @import url('https://fonts.googleapis.com/css?family=Hind+Madurai:400,600');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+header{
+	height: 1em;
+	width: 100%;
+	background: #ff4242;
+	background: -moz-linear-gradient(45deg, #ff4242 0%, #f47ac9 100%);
+	background: -webkit-linear-gradient(45deg, #ff4242 0%,#f47ac9 100%);
+	background: linear-gradient(45deg, #ff4242 0%,#f47ac9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff4242', endColorstr='#f47ac9',GradientType=1 );
+
+	color: white;
+    font-family: 'Baloo Thambi', cursive;
+    display: table;
+    text-align: center;
+    position: absolute;
+}
+
+header h1{
+	padding-top: 5% !important;
+	/*bottom: 50% !important;*/
+/*	margin-left: 50% !important;
+	right: 50% !important;*/
+/*	display: table-cell;*/
+}
+	/*vertical-align: middle;*/
+
+@media (max-width: 575px){
+	header{
+		height: 2em;
+		margin-bottom: .5rem;
+	}	
+	header h1{
+		padding-top: 25% !important;
+		font-size: 1.5rem !important;
+	}
+
+}
+
+@media (max-width: 767px){
+	header{
+		height: 1em;
+		margin-bottom: .5rem;
+	}	
+	header h1{
+		padding-top: 20% !important;
+		font-size: 1.5rem !important;
+	}
+
+}
+
+.navcustom{
+	/*position: fixed;*/
+	margin-bottom: 0;
+	outline: 0;
+	background:transparent !important;
+}
+
+.navcustom a{
+	font-size: 18px;
+}
+
+.nav-arrow{
+	font-size: 20px !important;
+}
+
+section{
+	margin-top: 4em;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+section h6{
+	font-weight: 600;
+}
+
+footer{
+	width: 100%;
+	height: 5em;
+	background: #333;
+	color: white;
+}
+
+.translit{
+	padding-top: 0px !important;
+	margin-top: 0px !important;
+	font-size: 14px;
+}
+
+
+.card > .card-block > .row > .col_border > .kural{
+	font-weight: 600;
+	margin-bottom: 0px !important;
+}
+
+.col_border{
+	border-right: 1px solid #ddd;
+}
+
+@media (max-width: 400px){
+	.kural, p{
+		font-size: 12px;
+	}
+
+}
+
+/*@media (max-width: 575px){
+	.col_border{
+		border-bottom: 1px solid #ddd;
+	}
+}
+
+@media (min-width: 576px){
+	.col_border{
+		border-bottom: 1px solid #ddd;
+	}
+}*/
+@media (max-width: 767px){
+	.col_border{
+		border-right: 0px solid #ddd !important;
+		border-bottom: 1px solid #ddd;
+
+		margin-bottom: 1rem;
+	}	
+
+}
+
+.trans_block{
+	margin-top: 2em !important;
+}
+
+@media (max-width: 767px){
+	.trans_block{
+		margin-bottom: 1rem;
+	}	
+	
+}
